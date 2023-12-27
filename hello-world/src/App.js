@@ -6,7 +6,9 @@ import Heloo from './components/Heloo'
 import React, { Component } from 'react';
 import Message from './components/message'
 import Counter from './components/Counter'
-
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 class App extends Component{
   render(){ 
@@ -15,14 +17,17 @@ class App extends Component{
      <div className='App'>
       {<Message/>}
       {<Counter/>}
-    {/* //   <Greet name="Bruce" heroname="bat"><p> this is childern </p> </Greet>
-    //   <Greet name="ama" heroname="iron" ><p> this is childern </p> </Greet>
+      {<FunctionClick/>}
+      {<ClassClick/>}
+      {<EventBind/>}
+      
+    /* //   <Greet name="Bruce" heroname="bat"></Greet>
+    {/* //   <Greet name="ama" heroname="iron" ><p> this is childern </p> </Greet>
     //   <Greet name="diana" heroname="captain"><button> action</button></Greet>
-    //   <Welcome name="diana" heroname="sandep"/>
+    {/* //   <Welcome name="diana" heroname="sandep"/>
     //   <Welcome name="ddsfna" heroname="sandep"/>
-    //   <Welcome name="diadsfsdfna" heroname="sandep"/>
-      {<Message/>}
-    //   {<Heloo/>} */}
+    //   <Welcome name="diadsfsdfna" heroname="sandep"/> */}
+      */
 
      </div>
     )
